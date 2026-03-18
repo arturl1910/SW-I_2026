@@ -1,0 +1,46 @@
+body {
+    background-color: #DDEBF0;
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif
+}    
+
+.grupo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    font-size: 1.2em;
+    text-align: left;
+}
+  
+.grupo-form input,
+.grupo-form select,
+.grupo-form textarea {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-top: 8px;
+}
+  
+.grupo-form input[type="checkbox"],
+.grupo-form input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 0;
+}
+  
+.grupo-form label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: auto;
+    padding: 10px 20px;
+    background: #6fc3ed;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: center;
+}
