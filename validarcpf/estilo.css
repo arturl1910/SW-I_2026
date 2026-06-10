@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.validator-container {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.resultado {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.resultado h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.status-alert {
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.valido {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.invalido {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.nova-consulta {
+    display: block;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.nova-consulta:hover {
+    background: #1d4ed8;
+}
